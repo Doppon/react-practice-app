@@ -32,6 +32,7 @@ class App extends Component {
       <TextField
         hintText = "お問い合わせ内容"
         style = {styles.textbox}
+        rows={3}
       /><br />
       <RaisedButton primary = {true} label = "送信！" />
       </MuiThemeProvider>
