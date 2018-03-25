@@ -25,7 +25,7 @@ class App extends Component {
           <h1 className="App-title">ようこそReactワールドへ(=ﾟωﾟ)ﾉ</h1>
         </div>
         <TextField
-          hintText = "あなたのあ名前"
+          hintText = "あなたのお名前"
           style = {styles.textbox}
         /><br />
         <TextField
