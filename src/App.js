@@ -27,9 +27,11 @@ class App extends Component {
       </div>
       <TextField
         hintText = "あなたのあ名前"
+        style = {styles.textbox}
       /><br />
       <TextField
         hintText = "お問い合わせ内容"
+        style = {styles.textbox}
       /><br />
       <RaisedButton primary = {true} label = "送信！" />
       </MuiThemeProvider>
