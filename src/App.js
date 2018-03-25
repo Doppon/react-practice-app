@@ -12,6 +12,12 @@ const styles = {
   textbox: {
     backgroundColor: '#ECECEC',
     margin: 10
+  },
+  nomal: {
+
+  },
+  big: {
+    fontsize: '40px'
   }
 };
 
