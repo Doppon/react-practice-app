@@ -32,6 +32,10 @@ class App extends Component {
     this.setState({count: this.state.count + 1});
   }
 
+  getIsThree() {
+    return this.state.count % 3 == 0 && this.state.count != 0 ? styles.big : styles.normal ;
+  }
+
   render() {
     return (
       <MuiThemeProvider>
