@@ -17,7 +17,7 @@ const styles = {
 
   },
   big: {
-    fontsize: '40px'
+    fontSize: '40px'
   }
 };
 
