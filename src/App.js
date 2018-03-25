@@ -44,7 +44,7 @@ class App extends Component {
           multiLine = {true}
           rows={3}
         /><br />
-        <RaisedButton primary = {true} label = "送信！" /> 
+        <RaisedButton primary = {true} label = "送信！" onClick = {this.tick} /> 
       </div>
       </MuiThemeProvider>
     );
