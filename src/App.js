@@ -33,7 +33,11 @@ class App extends Component {
   }
 
   getIsThree() {
-    return this.state.count % 3 === 0 && this.state.count !== 0 ? styles.big : styles.normal ;
+    if(this.state.count % 3 === 0 && this.state.count !== 0) {
+      return styles.big;
+    } else {
+      return styles.normal;
+    }
   }
 
   render() {
