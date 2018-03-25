@@ -15,9 +15,15 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <h1 className="App-title">ようこそReactワールドへ(=ﾟωﾟ)ﾉ</h1>
         </header>
       </div>
+      <TextField
+        hintText = "あなたのあ名前"
+      /><br />
+      <TextField
+        hintText = "お問い合わせ内容"
+      /><br />
       </MuiThemeProvider>
     );
   }
