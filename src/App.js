@@ -20,22 +20,22 @@ class App extends Component {
     return (
       <MuiThemeProvider>
       <div className="App">
-        <header className="App-header">
+        <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">ようこそReactワールドへ(=ﾟωﾟ)ﾉ</h1>
-        </header>
+        </div>
+        <TextField
+          hintText = "あなたのあ名前"
+          style = {styles.textbox}
+        /><br />
+        <TextField
+          hintText = "お問い合わせ内容"
+          style = {styles.textbox}
+          multiLine = {true}
+          rows={3}
+        /><br />
+        <RaisedButton primary = {true} label = "送信！" /> 
       </div>
-      <TextField
-        hintText = "あなたのあ名前"
-        style = {styles.textbox}
-      /><br />
-      <TextField
-        hintText = "お問い合わせ内容"
-        style = {styles.textbox}
-        multiLine = {true}
-        rows={3}
-      /><br />
-      <RaisedButton primary = {true} label = "送信！" />
       </MuiThemeProvider>
     );
   }
