@@ -16,6 +16,10 @@ const styles = {
 };
 
 class App extends Component {
+  tick() {
+    this.setState({count: this.state.count + 1});
+  }
+
   render() {
     return (
       <MuiThemeProvider>
