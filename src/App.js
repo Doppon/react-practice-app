@@ -8,6 +8,13 @@ import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import TextField from 'material-ui/TextField';
 import RaisedButton from 'material-ui/RaisedButton';
 
+const styles = {
+  textbox: {
+    backgroundColor: '#ECECEC',
+    margin: 10
+  }
+};
+
 class App extends Component {
   render() {
     return (
