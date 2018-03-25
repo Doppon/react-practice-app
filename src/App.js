@@ -59,7 +59,7 @@ class App extends Component {
           rows={3}
         /><br />
         <RaisedButton primary = {true} label = "送信！" onClick = {this.tick} />
-        <p>{this.state.count}回送信したぜ(*｀艸´)ｳｼｼｼ</p>
+        <p style = {this.getIsThree()}>{this.state.count}回送信したぜ(*｀艸´)ｳｼｼｼ</p>
       </div>
       </MuiThemeProvider>
     );
