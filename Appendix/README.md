@@ -8,6 +8,8 @@ $ git clone https://github.com/Doppon/react-practice-app.git
 
 2. プログラムの起動
 
+※試してないけど、たぶんこんな感じで動きそう↓
+
 ```
 $ cd react-practice-app/Appendix // 
 $ npm install                    // React などのライブラリをダウンロード 
