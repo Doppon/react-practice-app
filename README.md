@@ -9,8 +9,8 @@ $ git clone https://github.com/Doppon/react-practice-app.git
 2. プログラムの起動
 
 ```
-$ cd react-practice-app
-$ open index.html
+$ cd react-practice-app // 
+$ open index.html       // htmlファイルをブラウザで開く
 ```
 
 ## 参考
