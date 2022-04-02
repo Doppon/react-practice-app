@@ -1,3 +1,18 @@
+## 実行手順
+
+1. プログラムのダウンロード
+
+```
+$ git clone https://github.com/Doppon/react-practice-app.git
+```
+
+2. プログラムの起動
+
+```
+$ cd react-practice-app
+$ open index.html
+```
+
 ## 参考
 
 React入門チュートリアル (5) ToDoアプリを作ってみよう
